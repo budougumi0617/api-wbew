@@ -1,0 +1,3 @@
+[build]
+  publish = "public/"
+  command = "go build feed.go && go run feed.go > public/blogs.json"
